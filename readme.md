@@ -355,3 +355,17 @@ Or `run_realistic.bat` as
 For practical translation, you may create your own file like `Fooocus/language/jp.json` or `Fooocus/language/cn.json` and then use flag `--language jp` or `--language cn`. Apparently, these files do not exist now. **We need your help to create these files!**
 
 Note that if no `--language` is given and at the same time `Fooocus/language/default.json` exists, Fooocus will always load `Fooocus/language/default.json` for translation. By default, the file `Fooocus/language/default.json` does not exist.
+
+
+## Setup for macOS with only check Fooocus UI
+
+Using [rye](https://github.com/mitsuhiko/rye)
+
+```
+rye init -r requirements_versions.txt
+rye pin 3.10
+rye sync
+
+# start
+python start-macos-with-only-check-fooocus-ui.py
+```
