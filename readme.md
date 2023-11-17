@@ -357,7 +357,7 @@ For practical translation, you may create your own file like `Fooocus/language/j
 Note that if no `--language` is given and at the same time `Fooocus/language/default.json` exists, Fooocus will always load `Fooocus/language/default.json` for translation. By default, the file `Fooocus/language/default.json` does not exist.
 
 
-## Setup for macOS with only check Fooocus UI
+## Setup with only check Fooocus UI
 
 Using [rye](https://github.com/mitsuhiko/rye)
 
