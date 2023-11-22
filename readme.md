@@ -367,5 +367,9 @@ rye pin 3.10
 rye sync
 
 # start
-python start-macos-with-only-check-fooocus-ui.py
+python start-with-only-check-fooocus-ui.py
+
+# Command line options can also be applied.
+# Example: theme
+python start-with-only-check-fooocus-ui.py --theme dark
 ```
